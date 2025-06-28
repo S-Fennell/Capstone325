@@ -1,4 +1,4 @@
-:root {
+/* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -22,13 +22,7 @@ a:hover {
   color: #535bf2;
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
+
 
 h1 {
   font-size: 3.2em;
@@ -65,4 +59,34 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+} */
+
+body {
+  margin: 0;
+  display: block;
+  /* display: flex;
+  min-width: 320px;
+  min-height: 100vh; */
+  /* place-items: center; */
 }
+
+.nav{
+   width: 100%;
+   display: flex;
+   border: 1px solid midnightblue;
+   margin: 0;
+
+
+}
+
+.links{
+  display: flex;
+  border: 1px solid midnightblue;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+.newbody{
+  margin-left: 20px;
+}
+
