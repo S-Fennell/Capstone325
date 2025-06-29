@@ -117,4 +117,32 @@ body {
 
 }
 
+.infoBar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid midnightblue;
+  height: 300px;
+  width: 100%;
+  margin-bottom: 40px;
+  background-color: midnightblue;
+}
+
+.mission{
+  border: 1px solid midnightblue;
+  border-radius: 10px;
+  margin: 80px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 20px;
+  background-color: white;
+
+}
+.theMission{
+  border: 1px solid midnightblue;
+  margin-top: 30px;
+  color: lightgray;
+}
+
 
