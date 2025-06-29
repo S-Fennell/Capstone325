@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import Navbar from './components/Navbar'
+import HeroImage from './components/HeroImage'
+import GridImageLink from './components/GridImageLinks'
 import './App.css'
 
 function App() {
@@ -8,10 +10,8 @@ function App() {
   return (
     <>
     <Navbar/>
-    <div className='newbody'>
-      <h2>hello</h2>
-    </div>
-    
+    <HeroImage/>
+    <GridImageLink/>
     </>
   )
 }
