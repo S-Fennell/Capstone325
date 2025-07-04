@@ -121,13 +121,14 @@ a{
 
 
 }
-
 .links{
   display: flex;
   border: 1px solid midnightblue;
   flex-direction: row;
   justify-content:space-between;
 }
+  */
+  
 .navBox{
   display: flex;
   justify-content: center;
@@ -137,11 +138,8 @@ a{
   margin-left: auto;
   margin-right: auto;
   padding: 0;
-} */
+} 
 
-.newbody{
-
-}
 
 .hero{
   display: flex;
@@ -151,10 +149,6 @@ a{
 
 }
 
-
-.box{
-
-}
 
 .box2{
   height: 300px;
