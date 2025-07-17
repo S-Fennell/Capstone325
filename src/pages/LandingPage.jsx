@@ -1,4 +1,3 @@
-import Navbar from '../components/Navbar'
 import HeroImage from '../components/HeroImage'
 import GridImageLink from '../components/GridImageLinks'
 import InfoBar from '../components/InfoBar'
@@ -9,7 +8,6 @@ export default function LandingPage(){
 
     return(
         <>
-            <Navbar/>
             <HeroImage/>
             <InfoBar/>
             <GridImageLink/>

@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import { Link } from 'react-router-dom';
-import { Route, Routes } from 'react-router-dom';
 
 function Navbar(){
   const [selectedValue, setSelectedValue] = useState(''); // State to hold the selected value
@@ -16,19 +14,19 @@ function Navbar(){
         </div>
         
         <div className="links">
-            <Link className='anc' to="/">Home</Link>
-            <Link className='anc' to="/diet">Diet & Nutrition</Link>
-            <Link className='anc' to="/fatlose">Fat Loss</Link>
+            <a className='anc' href="/">Home</a>
+            <a className='anc' href="/diet">Diet & Nutrition</a>
+            <a className='anc' href="/fatlose">Fat Loss</a>
             
              <label htmlFor="dropDown"></label>
             <select className="dropDown" value={selectedValue} onChange={handleChange}>
                 <option value="">Types of Training</option>
-                <option value="Build Endurance"><Link to="">Build Endurance</Link></option>
-                <option value="Build Muscle"><Link to="">Build Muscle</Link></option>
-                <option value="Build Strength"><Link to="">Build Strength</Link></option>
+                <option value="Build Endurance"><a href="">Build Endurance</a></option>
+                <option value="Build Muscle"><a href="">Build Muscle</a></option>
+                <option value="Build Strength"><a href="">Build Strength</a></option>
             </select>
-            <Link className='anc, sign' to="">Sign Up |</Link>
-            <Link to="/signIn.html"> Sign In</Link>
+            <a className='anc, sign' href="">Subscribe</a>
+          
             {selectedValue && <p>Let's {selectedValue}</p>}
             
         </div>
