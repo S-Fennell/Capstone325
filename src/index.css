@@ -154,7 +154,7 @@ a{
 
 .box2{
   height: 300px;
-
+  cursor: pointer;
 }
 
 .infoBar{
@@ -183,6 +183,118 @@ a{
   border: 1px solid midnightblue;
   margin-top: 30px;
   color: lightgray;
+}
+
+.hero1{
+  display: flex;
+  justify-content: center;
+  background: url(./assets/heroBackground.png);
+  background-size: contain;
+}
+.diet{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border: 1px solid rgb(141, 138, 138);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 20px;
+  
+  border-radius: 10px;
+}
+.dietBar{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border: 1px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(211, 201, 8);
+}
+.paragraph1{
+  padding-left:25px;
+  padding-right: 25px;
+  padding:25px;
+  margin: 20px;
+  color:white;
+  background-color:rgb(62, 59, 59);
+  border-radius: 5px;
+  
+}
+.paragraph{
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  margin: 20px;
+}
+.divs{
+  border: 1px solid;
+  margin: 20px;
+  width: 600px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.med{
+  background-color: rgb(180,132,13);
+}
+.vegan1{
+  background-color: rgb(38,134,91);
+}
+.carnivore1{
+  background-color: rgb(153, 17, 17);
+  color:antiquewhite
+}
+.keto1{
+  background-color: rgb(188,172,116);
+}
+.medImage{
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  border-radius: 10px;
+  border: 1px solid grey;
+  background: url(./assets/mediteranian.png);
+  background-size:cover;
+}
+.veganImage{
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  border-radius: 10px;
+  border: 1px solid grey;
+  background-size:cover;
+  background: url(./assets/vegan.png);
+  background-size:cover;
+}
+.carnivoreImage{
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  border-radius: 10px;
+  border: 1px solid grey;
+  background: url(./assets/carnivore.png);
+  background-size:cover;
+}
+.ketoImage{
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  border-radius: 10px;
+  border: 1px solid grey;
+  background: url(./assets/keto.png);
+  background-size:cover;
+}
+.flex{
+  border: 5px solid grey;
+  border-radius: 10px;
+  margin: 20px;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: space-around;
 }
 
 

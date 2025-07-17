@@ -9,6 +9,8 @@ import SignIn from './pages/signIn'
 import { Link } from 'react-router-dom';
 import { Route, Routes } from 'react-router-dom';
 import LandingPage from './pages/LandingPage'
+import DietPage from './pages/Diet'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -18,7 +20,9 @@ function App() {
     <Navbar/>
     <Routes>
       <Route path="/" element={<LandingPage/>}/>
+      <Route path="/diet" element={<DietPage/>}/>
     </Routes>
+    {/* <Footer/> */}
     </>
   )
 }
