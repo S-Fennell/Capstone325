@@ -17,6 +17,7 @@ function Navbar(){
             <a className='anc' href="/">Home</a>
             <a className='anc' href="/diet">Diet & Nutrition</a>
             <a className='anc' href="/fatlose">Fat Loss</a>
+            <a className='anc' href="/strength">Build Strength</a>
             
              <label htmlFor="dropDown"></label>
             <select className="dropDown" value={selectedValue} onChange={handleChange}>

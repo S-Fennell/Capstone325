@@ -140,7 +140,7 @@ a{
   padding: 0;
 } 
 
-
+/* landing page css below */
 .hero{
   display: flex;
   justify-content: center;
@@ -185,6 +185,7 @@ a{
   color: lightgray;
 }
 
+/* diet page css below */
 .hero1{
   display: flex;
   justify-content: center;
@@ -297,4 +298,27 @@ a{
   justify-content: space-around;
 }
 
+/* build strength page css below */
 
+.h1Bar{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: rgb(61, 61, 57);
+  color: antiquewhite;
+}
+.strengthContainer{
+  border: 2px solid lightgray;
+  padding: 50px;
+  width: 800px;
+  color: aliceblue ;
+  background-color: black;
+  margin:50px;
+}
+.gradient{
+  display: flex;
+  justify-content: center;
+  width:100%;
+  height: 100%;
+  background-image: linear-gradient(rgb(84, 72, 72), rgb(113, 60, 44));
+}

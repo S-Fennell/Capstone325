@@ -11,6 +11,7 @@ import { Route, Routes } from 'react-router-dom';
 import LandingPage from './pages/LandingPage'
 import DietPage from './pages/Diet'
 import Footer from './components/Footer'
+import BuildStrength from './pages/BuildStrength'
 
 function App() {
 
@@ -18,9 +19,11 @@ function App() {
   return (
     <>
     <Navbar/>
+    
     <Routes>
       <Route path="/" element={<LandingPage/>}/>
       <Route path="/diet" element={<DietPage/>}/>
+       <Route path="/strength" element={<BuildStrength/>}/>
     </Routes>
     {/* <Footer/> */}
     </>
