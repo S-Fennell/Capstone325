@@ -322,3 +322,10 @@ a{
   height: 100%;
   background-image: linear-gradient(rgb(84, 72, 72), rgb(113, 60, 44));
 }
+
+/* subscription pagee css below */
+.formConatainer{
+    height: 900px;
+    width: 900px;
+    background-image: -moz-linear-gradient(red, blue);
+}

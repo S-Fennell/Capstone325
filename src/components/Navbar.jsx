@@ -27,7 +27,7 @@ function Navbar(){
                 <option value="Build Muscle"><a href="">Build Muscle</a></option>
                 <option value="Build Strength"><a href="">Build Strength</a></option>
             </select>
-            <a className='anc, sign' href="/subscribe">Subscribe</a>
+            <Link to="/subscribe"><div className='anc, sign'>Subscribe</div></Link>
           
             {selectedValue && <p>Let's {selectedValue}</p>}
             
