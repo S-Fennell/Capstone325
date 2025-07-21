@@ -1,30 +1,24 @@
 import express, { Router } from 'express';
 import mongoose from 'mongoose';
-import path from 'path';
-import Subscriber from './models/subscribe.js';
-
+import cors from 'cors';
 import 'dotenv/config';
-
+import Subscriber from './models/subscribe.js'
 
 const app = express();
 const PORT = process.env.PORT;
 app.use(express.json());
 
-app.use(express.urlencoded({extended:true}))
+app.use(cors());
 
-app.post('/newSubscriber', (req,res)=>{
+app.post('/newSubscriber',async (req,res)=>{
+    let subscriber = new Subscriber(req.body);
+    let result = await subscriber.save()
  
 })
-app.use((req, res, next)=>{
-    console.log(req.path, req.method);
-    next()
-})
 
-// user routes
 
-app.get('/', (req, res) =>{
-    res.sendFile(path.join(__dirname,"Subscribers.jsx"));
-});
+
+
 
 
 
