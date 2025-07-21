@@ -12,19 +12,21 @@ import LandingPage from './pages/LandingPage'
 import DietPage from './pages/Diet'
 import Footer from './components/Footer'
 import BuildStrength from './pages/BuildStrength'
+import Subscribe from './pages/Subscribe'
 
 function App() {
 
 
   return (
     <>
-    <Navbar/>
+    <Subscribe/>
+    {/* <Navbar/>
     
     <Routes>
       <Route path="/" element={<LandingPage/>}/>
       <Route path="/diet" element={<DietPage/>}/>
        <Route path="/strength" element={<BuildStrength/>}/>
-    </Routes>
+    </Routes> */}
     {/* <Footer/> */}
     </>
   )

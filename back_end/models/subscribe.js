@@ -13,14 +13,6 @@ const subscriberSchema = new mongoose.Schema(
         email:{
             type: String,
             required: true
-        },
-        gender:{
-            type: String,
-            required: false
-        },
-        topic:{
-            type: String,
-            required: false
         }
     },
     {
