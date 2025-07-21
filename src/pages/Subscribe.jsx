@@ -1,25 +1,32 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
 
 export default function Subscribe(){
 
-    const [name, setName] = useState('')
+    const [firstName, setName] = useState('')
     const [lastName, setLastName] = useState('')
     const [email, setEmail] = useState('')
 // adding subscribers to my database
     const getData = async (e) => {
         e.preventDefault();
         //connecting to my database
-        let result = await fetch('http://localhost:3000/',{
-        method: 'post',
-        body:JSON.stringify(name, lastName, email),
-        header:{
+        
+        let result = await fetch('http://localhost:3000/subscribers',{
+        method: 'POST',
+        body:JSON.stringify({firstName, lastName, email}),
+        headers:{
             'Content-Type': 'application/json'
             }
         })
-        result = await result.json;
+        result = await result.json();
         localStorage.setItem('subscriber', JSON.stringify(result));
-    }
 
+        setName('')
+        setLastName('')
+        setEmail('')
+
+        alert('You have subscribed');
+    }
+ 
 
 
     return(
@@ -29,7 +36,7 @@ export default function Subscribe(){
                 <div>
                     <label>First Name</label>
                     <input type="text" className="form-control"
-                    value={name}
+                    value={firstName}
                     onChange={(e)=>setName(e.target.value)}/>
                 </div>
                  <div>

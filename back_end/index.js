@@ -8,14 +8,24 @@ const app = express();
 const PORT = process.env.PORT;
 app.use(express.json());
 
+
+
 app.use(cors());
 
-app.post('/newSubscriber',async (req,res)=>{
-    let subscriber = new Subscriber(req.body);
-    let result = await subscriber.save()
- 
+app.get('/', (req, res)=>{
+    res.send('hello world')
 })
 
+app.post('/subscribers', async(req,res)=>{
+    console.log(req.body)
+    try {
+        const scriber = await Subscriber.create(req.body)
+        res.status(200).json(scriber);
+    } catch (error) {
+        res.status(500).json({message: error.message})
+        console.log(error.message)
+    }
+})
 
 
 

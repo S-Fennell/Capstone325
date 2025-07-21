@@ -12,6 +12,7 @@ const subscriberSchema = new mongoose.Schema(
         },
         email:{
             type: String,
+            unique: true,
             required: true
         }
     },
@@ -19,5 +20,5 @@ const subscriberSchema = new mongoose.Schema(
         timestamps: true
     }
 );
-subscriberSchema.index({name: String});
+subscriberSchema.index({email: String});
 export default mongoose.model("Subscriber", subscriberSchema, "subscribers");
