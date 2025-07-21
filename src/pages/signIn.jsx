@@ -1,7 +1,7 @@
 
 
 export default function SignIn(){
-
+//I only left this page because react seems to act up about deleting files. I'm just going with a subscribe page
     return(
         <form action="/register" method="POST">
             <fieldset>

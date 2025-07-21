@@ -7,7 +7,7 @@ import cardio from '../assets/cardio.png';
 
 function GridImageLink(){
 
-
+//life style cardio fat lose and build strength was left there for esthetic reasons instead of getting rid of it entirely. Too much work to put in to finish on time, If I hav havs time I'll try to finsh it.
     return(
             <div className='newbody'>
         <div class="navBox">

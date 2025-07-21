@@ -1,13 +1,20 @@
 import express, { Router } from 'express';
 import mongoose from 'mongoose';
+import path from 'path';
+import Subscriber from './models/subscribe.js';
 
 import 'dotenv/config';
+
 
 const app = express();
 const PORT = process.env.PORT;
 app.use(express.json());
 
+app.use(express.urlencoded({extended:true}))
 
+app.post('/newSubscriber', (req,res)=>{
+ 
+})
 app.use((req, res, next)=>{
     console.log(req.path, req.method);
     next()
@@ -16,8 +23,10 @@ app.use((req, res, next)=>{
 // user routes
 
 app.get('/', (req, res) =>{
-    res.send(`Welcome to my workout app`);
+    res.sendFile(path.join(__dirname,"Subscribers.jsx"));
 });
+
+
 
 
 
