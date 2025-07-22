@@ -11,6 +11,9 @@ function GridImageLink(){
 //life style cardio fat lose and build strength was left there for esthetic reasons instead of getting rid of it entirely. Too much work to put in to finish on time, If I hav havs time I'll try to finsh it.
     return(
    <div className='newbody'>
+      <div className="divider">
+        <h1>Fit Life Topics</h1>
+      </div>
         <div class="navBox">
           <div>
             <div className='box'>
@@ -18,13 +21,18 @@ function GridImageLink(){
               <h1>The Best Diet</h1>
             </div>
 
-            <Link to="/strength"><div className='box'><img className='box2' src={buildStrength} alt="" /><h1>Build Strength</h1></div></Link>
-            <Link><div className='box'><img className='box2' src={buildMuscle} alt="" /><h1>Building Muscle</h1></div></Link>
+            <Link to="/strength"><div className='box'><img className='box2' src={buildStrength} alt="" /></div></Link>
+            <h1>Build Strength</h1>
+            <Link><div className='box'><img className='box2' src={buildMuscle} alt="" /></div></Link>
+            <h1>Building Muscle</h1>
           </div>
           <div>
-            <Link to=""><div className='box'><img className='box2' src={lifeStyle} alt="" /><h1>Life Style Habbits</h1></div></Link>
-            <Link to=""><div className='box'><img className='box2' src={cardio} alt="" /><h1>Cardio</h1></div></Link>
-            <Link to=""><div className='box'><img className='box2' src={fatloss} alt="" /><h1>Fat lose</h1></div></Link>
+            <Link to=""><div className='box'><img className='box2' src={lifeStyle} alt="" /></div></Link>
+            <h1>Life Style Habbits</h1>
+            <Link to=""><div className='box'><img className='box2' src={cardio} alt="" /></div></Link>
+            <h1>Cardio</h1>
+            <Link to=""><div className='box'><img className='box2' src={fatloss} alt="" /></div></Link>
+            <h1>Fat lose</h1>
           </div>
         </div>
     </div>

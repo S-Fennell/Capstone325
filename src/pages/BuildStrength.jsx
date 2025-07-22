@@ -6,7 +6,7 @@ export default function BuildStrength(){
 
     return(
         <>
-                <div class='hero1'>
+                <div class='hero2'>
                     <img src={strength} alt="" />
                 </div>
                 <h1 class="h1Bar">Training for Strength is Not like Training for Muscle Size</h1>

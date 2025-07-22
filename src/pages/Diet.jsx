@@ -9,11 +9,16 @@ export default function DietPage(){
 
 
     return(
-        <>
-    <div class='hero1'> {/*div for hero image*/}
-            <img src={dietImage} alt="" />
-        </div>
-        <h1 class="dietBar">What You Should know About Different Diets</h1>
+        <div className="dietPage">
+
+            <div class='hero1'> {/*div for hero image*/}
+                <img src={dietImage} alt="" />
+            </div>
+
+            <div className="midbar">
+                <h1 class="dietBar">What You Should know About Different Diets</h1>
+            </div>
+            
         <div className="flex">
             <div className="mediteranian divs">
                 <h2 class="diet med">Mediteranian Diet</h2>
@@ -124,7 +129,7 @@ export default function DietPage(){
                 <img src="{}"alt="" />
             </div>
         </div>
-        </>
+        </div>
        
     )
 }
