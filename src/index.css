@@ -69,15 +69,16 @@ body {
   min-height: 100vh; */
   /* place-items: center; */
 }
-
+/* navbar css below */
 .navbar{
+  font-family: Arial, Helvetica, sans-serif;
   padding: 20px;
   display: flex;
   align-items: center;
   max-width: 100%;
   margin: 0 auto;
   border-bottom: 1px solid lightgray;
-  background-color: rgb(9, 182, 154);
+  background-image: linear-gradient(to right, rgb(120, 166, 218), blue);
   color: rgb(233, 229, 229);
 }
 .navbar h1{
@@ -90,13 +91,15 @@ body {
 .sign{
   margin-left: 100px;
 }
-.navbar .anc{
+.anc{
   margin-left: 20px;
   text-decoration: none;
   color: white;
-  padding: 1px;
+  width: 150px;
+  padding: 5px;
 }
 a{
+  
   text-decoration: none;
   color: white;
 }
@@ -109,11 +112,10 @@ a{
   padding: 20px;
 }
 .dropDown{
-  margin-left: 20px;
   color:black
 }
 
-/* .nav{
+.nav{
    width: 100%;
    display: flex;
    border: 1px solid midnightblue;
@@ -123,13 +125,13 @@ a{
 }
 .links{
   display: flex;
-  border: 1px solid midnightblue;
   flex-direction: row;
-  justify-content:space-between;
+  width: 80%;
 }
-  */
+ 
   
 .navBox{
+  font-family: Arial, Helvetica, sans-serif;
   display: flex;
   justify-content: center;
   justify-content: space-around;
@@ -166,7 +168,8 @@ a{
   height: 300px;
   width: 100%;
   margin-bottom: 40px;
-  background-color: midnightblue;
+  background-image: linear-gradient(to right,rgb(58, 58, 232), rgb(120, 166, 218), blue);
+
 }
 
 .mission{
@@ -175,14 +178,20 @@ a{
   margin: 80px;
   margin-top: 0;
   margin-bottom: 0;
+  color: white;
   padding: 20px;
-  background-color: white;
+  background-color: rgb(44, 37, 180);
 
 }
 .theMission{
+  text-align: center;
   border: 1px solid midnightblue;
+  border-radius: 5px;
+  width: 250px;
   margin-top: 30px;
-  color: lightgray;
+  color: rgb(225, 219, 219);
+  background-color: midnightblue;
+  padding: 10px;
 }
 
 /* diet page css below */
@@ -204,6 +213,7 @@ a{
   border-radius: 10px;
 }
 .dietBar{
+  font-family: Arial, Helvetica, sans-serif;
   display: flex;
   justify-content: center;
   width: 100%;
@@ -213,6 +223,7 @@ a{
   background-color: rgb(211, 201, 8);
 }
 .paragraph1{
+  font-family: Arial, Helvetica, sans-serif;
   padding-left:25px;
   padding-right: 25px;
   padding:25px;
@@ -223,6 +234,7 @@ a{
   
 }
 .paragraph{
+  font-family: Arial, Helvetica, sans-serif;
   padding-left: 25px;
   padding-right: 25px;
   padding-bottom: 25px;
@@ -236,16 +248,20 @@ a{
   border-radius: 5px;
 }
 .med{
+  font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(180,132,13);
 }
 .vegan1{
+  font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(38,134,91);
 }
 .carnivore1{
+  font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(153, 17, 17);
   color:antiquewhite
 }
 .keto1{
+  font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(188,172,116);
 }
 .medImage{
@@ -325,7 +341,55 @@ a{
 
 /* subscription pagee css below */
 .formConatainer{
-    height: 900px;
-    width: 900px;
-    background-image: -moz-linear-gradient(red, blue);
+  display: flex;
+  justify-content: center;
+  border: 6px solid black;
+  height: 80rem;
+  background-image: linear-gradient(red, blue);
+}
+.form{
+  border: 2px solid lightgray;
+  border-radius: 10px;
+  padding: 20px;
+  width: 500px;
+  text-align: center;
+  margin: auto;
+  margin-top: 200px;
+}
+input{
+  display: block;
+  width: 99%;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+label{
+  margin-top:10px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.subscribe{
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 20px;
+  text-align: center;
+  padding: 20px;
+  background-image:radial-gradient(lightblue, blue)
+}
+.btn{
+  padding: 15px;
+  border-radius: 8px;
+  margin: 15;
+  border: none;
+  cursor: pointer;
+  background-image: cross-fade(lightblue, blue);
+  width: 40%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.btn:hover{
+  border-color: rgb(27, 206, 27);
 }

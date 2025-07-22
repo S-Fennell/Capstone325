@@ -1,4 +1,5 @@
 import { useState } from "react"
+import '../styles/subscribe.css'
 
 export default function Subscribe(){
 
@@ -31,8 +32,9 @@ export default function Subscribe(){
 
     return(
         <div className="formConatainer">
-            <form onSubmit={getData}>
-                <h2>Subscribe</h2>
+            <div className="form">
+                           <form onSubmit={getData}>
+                <h2 className="subscribe">Subscribe</h2>
                 <div>
                     <label>First Name</label>
                     <input type="text" className="form-control"
@@ -51,8 +53,10 @@ export default function Subscribe(){
                      value={email}
                     onChange={(e)=>setEmail(e.target.value)} />
                 </div>
-                <button type="submit" className="btn btn-success">Submit</button>
+                <button type="submit" className="btn">Submit</button>
             </form>
+            </div>
+ 
             
         </div>
     )

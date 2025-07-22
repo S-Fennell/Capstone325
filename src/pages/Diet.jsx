@@ -11,7 +11,7 @@ export default function DietPage(){
     return(
         <>
     <div class='hero1'> {/*div for hero image*/}
-            <img src={dietImage} alt="" /> hero image
+            <img src={dietImage} alt="" />
         </div>
         <h1 class="dietBar">What You Should know About Different Diets</h1>
         <div className="flex">

@@ -15,10 +15,10 @@ function Navbar(){
         </div>
         
         <div className="links">
-            <Link to="/"><div className='anc' href="/">Home</div></Link>
+            <Link to="/"><div className='anc'>Home</div></Link>
             <Link to="/diet"><div className='anc'>Diet & Nutrition</div></Link>
-            <Link to="/fatlose"><a className='anc' href="/fatlose">Fat Loss</a></Link><a className='anc' href="/fatlose">Fat Loss</a>
-            <Link to="/strength"><a className='anc' href="/strength">Build Strength</a></Link>
+            <Link to="/fatlose"><div className='anc'>Fat Loss</div></Link>
+            <Link to="/strength"><div className='anc'>Build Strength</div></Link>
             
              <label htmlFor="dropDown"></label>
             <select className="dropDown" value={selectedValue} onChange={handleChange}>
