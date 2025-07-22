@@ -4,7 +4,7 @@ function HeroImage (){
 
     return(
 
-        <div class='hero'>
+        <div className='hero'>
              <img src={image} alt="image of mediteranian food" />
         </div>
        

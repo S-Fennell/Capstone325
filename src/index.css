@@ -420,3 +420,23 @@ label{
 .btn:hover{
   border-color: rgb(27, 206, 27);
 }
+
+/* Fat Loss page */
+
+.fatLossHero{
+  background: url(./assets/redgrayFit.png);
+  display: flex;
+  justify-content: center;
+  /* background-size: ; */
+  background-position: center;
+}
+.FatLossBar{
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  border-radius: 9px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-image: linear-gradient(to right,rgb(232, 51, 51), rgb(214, 137, 89), rgb(255, 230, 0));
+}

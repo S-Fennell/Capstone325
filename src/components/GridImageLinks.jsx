@@ -14,7 +14,7 @@ function GridImageLink(){
       <div className="divider">
         <h1>Fit Life Topics</h1>
       </div>
-        <div class="navBox">
+        <div className="navBox">
           <div>
             <div className='box'>
              <Link to="/diet"><img className='box2' src={diet} alt="" /></Link> 
@@ -31,8 +31,8 @@ function GridImageLink(){
             <h1>Life Style Habbits</h1>
             <Link to=""><div className='box'><img className='box2' src={cardio} alt="" /></div></Link>
             <h1>Cardio</h1>
-            <Link to=""><div className='box'><img className='box2' src={fatloss} alt="" /></div></Link>
-            <h1>Fat lose</h1>
+            <Link to="/fatloss"><div className='box'><img className='box2' src={fatloss} alt="" /></div></Link>
+            <h1>Fat Loss</h1>
           </div>
         </div>
     </div>

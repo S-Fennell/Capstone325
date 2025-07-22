@@ -3,9 +3,15 @@ export default function FatLoss(){
 
     return(
         <>
-        <div class='hero3'>
-            <img src={fatloss} alt="" />
-        </div>
+            <div className='fatLossHero'>
+                <img src={fatloss} alt="" />
+            </div>
+            <div className="midbar">
+                <h1 className="FatLossBar">How Fat Loss Works</h1>
+            </div>
+            <div className="flex">
+
+            </div>
         </>
     )
 }

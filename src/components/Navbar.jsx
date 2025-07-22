@@ -10,7 +10,7 @@ function Navbar(){
 
     return(
       <nav className="navbar">
-        <div class="fit">
+        <div className="fit">
             <h1>Fit 🏃🏽‍♂️‍➡️🏃🏼‍♀️‍➡️ Life</h1>
         </div>
         
@@ -20,12 +20,11 @@ function Navbar(){
             <Link to="/fatloss"><div className='anc'>Fat Loss</div></Link>
             <Link to="/strength"><div className='anc'>Build Strength</div></Link>
             
-             <label htmlFor="dropDown"></label>
             <select className="dropDown" value={selectedValue} onChange={handleChange}>
                 <option value="">Types of Training</option>
-                <option value="Build Endurance"><a href="">Build Endurance</a></option>
-                <option value="Build Muscle"><a href="">Build Muscle</a></option>
-                <option value="Build Strength"><a href="">Build Strength</a></option>
+                <option value="Build Endurance"><Link to="">Build Endurance</Link></option>
+                <option value="Build Muscle"><Link to="">Build Muscle</Link></option>
+                <option value="Build Strength"><Link to="">Build Strength</Link></option>
             </select>
             <Link to="/subscribe"><div className='anc, sign'>Subscribe</div></Link>
           
