@@ -72,7 +72,8 @@ body {
 /* navbar css below */
 .fit{
   background-color: rgb(4, 4, 53);
-  padding: 10px;
+  padding-left: 20px;
+  padding-right: 10px;
 }
 .navbar{
   font-family: Arial, Helvetica, sans-serif;
@@ -496,9 +497,31 @@ label{
   display: flex;
   justify-content: center;
   width: 80%;
-  border: 9px solid gray;
+  border: 9px solid lightgray;
   border-radius: 9px;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-image: linear-gradient(to right, rgb(10, 12, 16), rgb(198, 204, 16));  color: antiquewhite;
+  background-image: linear-gradient(to right, rgb(10, 12, 16), rgb(198, 204, 16), rgb(250, 255, 108));  
+  color: rgb(0, 0, 0);
+}
+.cardioParagraph{
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid lightgray;
+  padding: 50px;
+  width: 800px;
+  color: aliceblue ;
+  background-color: black;
+  margin:50px;
+}
+.cardio{
+  border-bottom: 5px solid gray;
+  margin-bottom: 60px;
+}
+.cardioContainer{
+  display: flex;
+  justify-content: center;
+   background-image: linear-gradient(to right,rgb(58, 194, 232), rgb(120, 166, 218), rgb(150, 206, 252));
+}
+.cardioPng{
+  height: 200px;
 }
