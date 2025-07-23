@@ -14,6 +14,8 @@ import Footer from './components/Footer';
 import BuildStrength from './pages/BuildStrength';
 import Subscribe from './pages/Subscribe';
 import FatLoss from './pages/FatLoss';
+import LifeStyleHabits from './pages/LifeStyleHabits';
+import Cardio from './pages/Cardio';
 
 function App() {
 
@@ -25,8 +27,10 @@ function App() {
     <Routes>
       <Route path="/" element={<LandingPage/>}/>
       <Route path="/diet" element={<DietPage/>}/>
+      <Route path="/lifestyle" element={<LifeStyleHabits/>}/>
       <Route path="/strength" element={<BuildStrength/>}/>
-      <Route path="fatloss" element={<FatLoss/>}/>
+      <Route path="/fatloss" element={<FatLoss/>}/>
+      <Route path="/cardio" element={<Cardio/>}/>
       <Route path="/subscribe" element={<Subscribe/>}/>
     </Routes>
     {/* <Footer/> */}

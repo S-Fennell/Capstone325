@@ -29,7 +29,7 @@ function GridImageLink(){
           <div>
             <Link to="/lifestyle"><div className='box'><img className='box2' src={lifeStyle} alt="" /></div></Link>
             <h1>Lifestyle Habits</h1>
-            <Link to=""><div className='box'><img className='box2' src={cardio} alt="" /></div></Link>
+            <Link to="/cardio"><div className='box'><img className='box2' src={cardio} alt="" /></div></Link>
             <h1>Cardio</h1>
             <Link to="/fatloss"><div className='box'><img className='box2' src={fatloss} alt="" /></div></Link>
             <h1>Fat Loss</h1>

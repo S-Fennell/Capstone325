@@ -20,7 +20,7 @@ function Navbar(){
             <Link to="/lifestyle"><div className='anc'>Lifestyle Habits</div></Link>
             <Link to="/cardio"><div className='anc'>Cardio</div></Link>
             <Link to="/strength"><div className='anc'>Build Strength</div></Link>
-             <Link to="/muscle"><div className='anc'>Build Muscle</div></Link>
+            <Link to="/muscle"><div className='anc'>Build Muscle</div></Link>
             <Link to="/fatloss"><div className='anc'>Fat Loss</div></Link>
            
             <Link to="/subscribe"><div className='anc, sign'>Subscribe</div></Link>

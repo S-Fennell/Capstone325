@@ -463,3 +463,23 @@ label{
 .fatFlex{
    background-image: linear-gradient(blue blue green);
 }
+
+/* cardio css below */
+.cardioHero{
+  background: url(./assets/FitLife.png);
+  display: flex;
+  justify-content: center;
+  /* background-size: ; */
+  background-position: center;
+}
+.cardioBar{
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  border: 9px solid gray;
+  border-radius: 9px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-image: linear-gradient(to right, rgb(10, 12, 16), rgb(198, 204, 16));  color: antiquewhite;
+}
