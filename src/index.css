@@ -204,6 +204,34 @@ a{
   background-color: rgb(44, 37, 180);
 }
 
+/* I tried a css trick that did not work which is a glowing rotating border */
+/* @property --deg{
+  syntax: '<angle>';
+  inherits: true;
+  initial-value: 0deg;
+}
+.navbar::before, .navbar::after{
+  background: conic-gradient(
+    from var (--0deg) at center,
+    #00c3ff,
+    #4d0199,
+    #6300c6,
+    #00c3ff
+  );
+  border-radius: inherit;
+  z-index: -2;
+  padding: 2px;
+  animation: autoRotate 2s linear infinite;
+}
+.navbar::after{
+  filter: blur(10px);
+}
+@keyframes autoRotate {
+  to{
+    --deg: 360deg;
+}
+} */
+
 .theMission{
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
@@ -527,4 +555,14 @@ label{
 }
 .cardioPng{
   height: 200px;
+}
+
+/* Lifestyel page css below */
+
+.topicBar{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-image: linear-gradient(to right, rgb(0, 119, 255), rgb(165, 255, 159), rgb(140, 196, 255)
+  );
 }
