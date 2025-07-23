@@ -11,6 +11,9 @@ export default function BuildMuscle(){
             <div className="midbar">
                 <h1 className="muscleBar">Building Muscle 101</h1>
             </div>
+            <div>
+                
+            </div>
         </>
     )
 }
