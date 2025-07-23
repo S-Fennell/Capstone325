@@ -1,4 +1,4 @@
-import strength from "../assets/BuildStrength.png"
+import strength from "../assets/powerWoman.png"
 
 export default function BuildStrength(){
     //I could have added more details but that would eat up a lot of time that I don't have
@@ -7,7 +7,7 @@ export default function BuildStrength(){
     return(
         <>
                 <div class='hero2'>
-                    <img src={strength} alt="" />
+                    <img src={strength} height="600px"/>
                 </div>
                 <h1 class="h1Bar">Training for Strength is Not like Training for Muscle Size</h1>
                 <div className="gradient">

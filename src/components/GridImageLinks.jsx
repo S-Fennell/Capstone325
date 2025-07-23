@@ -1,9 +1,9 @@
 import diet from "../assets/diet.png";
 import buildMuscle from "../assets/buildMuscle.png";
-import buildStrength from "../assets/buildStrength.png";
+import buildStrength from "../assets/powerWoman.png";
 import lifeStyle from "../assets/lifeStyle.png";
 import fatloss from "../assets/fatloss.png";
-import cardio from "../assets/cardio.png";
+import cardio from "../assets/coupleCardio.jpeg";
 import { Link } from "react-router-dom";
 
 function GridImageLink() {

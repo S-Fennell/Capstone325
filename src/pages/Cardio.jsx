@@ -1,4 +1,4 @@
-import cardioImage from '../assets/cardio.png'
+import cardioImage from '../assets/coupleCardio.jpeg'
 
 export default function Cardio(){
 
@@ -6,7 +6,7 @@ export default function Cardio(){
         <>
             
             <div className='cardioHero'> {/*div for hero image*/}
-                <img src={cardioImage}/>
+                <img src={cardioImage} height="600px"/>
             </div>
 
             <div className="midbar">
