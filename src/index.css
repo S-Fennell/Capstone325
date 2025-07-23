@@ -474,6 +474,9 @@ label{
    width: 600px;
    background-image: linear-gradient(blue blue green);
 }
+.fatFlex{
+  background-image: linear-gradient(blue blue green);
+}
 .fatParagraph{
   border: 1px solid lightgray;
   padding: 20px;
