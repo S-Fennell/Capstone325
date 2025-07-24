@@ -627,6 +627,16 @@ label {
   height: 600px;
   width: 900px;
 }
+.ls{
+  border: 3px solid lightgray;
+  padding: 30px;
+  width: 845px;
+  margin-bottom: 100px;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(2, 2, 43);
+}
+
 
 
 
