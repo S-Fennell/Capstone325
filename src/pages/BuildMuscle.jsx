@@ -4,7 +4,7 @@ export default function BuildMuscle() {
   return (
     <>
       <div className="cardioHero">
-        {" "}
+
         {/*div for hero image*/}
         <img src={Muscle} height="600px" />
       </div>
