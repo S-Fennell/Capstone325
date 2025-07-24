@@ -15,7 +15,7 @@ export default function DietPage() {
 
       <div className="flex">
         <div className="mediteranian divs">
-          <h2 className="diet med">Mediteranian Diet</h2>
+          <h2 className="diet med">Mediterranean Diet</h2>
           <p className="paragraph1">
             The Mediterranean diet is based on the traditional foods of
             countries bordering the Mediterranean Sea, including France, Spain,
@@ -41,7 +41,7 @@ export default function DietPage() {
 
       <div className="flex">
         <div className="vegan divs">
-          <h2 className="diet vegan1">Vagen Diet</h2>
+          <h2 className="diet vegan1">Vegan Diet</h2>
           <p className="paragraph1">
             {" "}
             class="paragraph" Veganism is defined as a way of living that
