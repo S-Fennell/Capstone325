@@ -211,6 +211,7 @@ h1 {
 
 
 
+
 /* diet page css below */
 .dietPage {
   background-image: linear-gradient(
@@ -517,7 +518,6 @@ label {
   background: url(./assets/FitLife.png);
   display: flex;
   justify-content: center;
-  /* background-size: ; */
   background-position: center;
 }
 .cardioBar {

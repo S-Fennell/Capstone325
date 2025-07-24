@@ -1,0 +1,109 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 600px;
+  background-image: url(./assets/spce.png);
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid lightgray;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 20px;
+}
+.box:hover {
+  background-image: linear-gradient(
+    to right,
+    rgb(140, 157, 255),
+    rgb(134, 186, 245),
+    rgb(103, 103, 255)
+  );
+}
+.box2 {
+  height: 300px;
+  cursor: pointer;
+}
+.box2:hover {
+  height: 310px;
+}
+.infoBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 100%;
+  background-image: linear-gradient(
+    to right,
+    rgb(58, 58, 232),
+    rgb(120, 166, 218),
+    blue
+  );
+}
+.mission {
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  margin: 80px;
+  margin-top: 0;
+  margin-bottom: 10;
+  color: white;
+  padding: 20px;
+  background-color: rgb(44, 37, 180);
+}
+/* I tried a css trick that did not work which is a glowing rotating border */
+/* @property --deg{
+  syntax: '<angle>';
+  inherits: true;
+  initial-value: 0deg;
+}
+.navbar::before, .navbar::after{
+  background: conic-gradient(
+    from var (--0deg) at center,
+    #00c3ff,
+    #4d0199,
+    #6300c6,
+    #00c3ff
+  );
+  border-radius: inherit;
+  z-index: -2;
+  padding: 2px;
+  animation: autoRotate 2s linear infinite;
+}
+.navbar::after{
+  filter: blur(10px);
+}
+@keyframes autoRotate {
+  to{
+    --deg: 360deg;
+}
+} */
+.theMission {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  border-radius: 5px;
+  width: 250px;
+  margin-top: 30px;
+  color: rgb(225, 219, 219);
+  background-color: midnightblue;
+  padding: 10px;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.newbody {
+  background-image: linear-gradient(
+    rgb(231, 253, 253),
+    rgb(163, 202, 245),
+    rgb(183, 247, 244)
+  );
+}
+.divider {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding: 20px;
+  background-color: azure;
+}

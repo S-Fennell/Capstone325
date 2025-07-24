@@ -1,0 +1,138 @@
+.dietPage {
+  background-image: linear-gradient(
+    to right,
+    rgb(58, 58, 232),
+    rgb(120, 166, 218),
+    blue
+  );
+}
+.hero1 {
+  background: url(./assets/FitLife.png);
+  display: flex;
+  justify-content: center;
+  /* background-size: ; */
+  background-position: center;
+}
+.diet {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border: 1px solid rgb(141, 138, 138);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 20px;
+  border-radius: 10px;
+}
+.midbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+.dietBar {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  border: 9px solid gray;
+  border-radius: 9px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-image: linear-gradient(
+    to right,
+    rgb(116, 232, 211),
+    rgb(198, 218, 120),
+    rgb(255, 166, 0)
+  );
+}
+.paragraph1 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding: 25px;
+  margin: 20px;
+  color: white;
+  background-color: rgb(62, 59, 59);
+  border-radius: 5px;
+}
+.paragraph {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  margin: 20px;
+}
+.divs {
+  border: 1px solid;
+  margin: 20px;
+  width: 600px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.med {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(180, 132, 13);
+}
+.vegan1 {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(38, 134, 91);
+}
+.carnivore1 {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(153, 17, 17);
+  color: antiquewhite;
+}
+.keto1 {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(188, 172, 116);
+}
+.medImage {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  border-radius: 10px;
+  border: 1px solid grey;
+  background: url(./assets/mediteranian.png);
+  background-size: cover;
+}
+.veganImage {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  border-radius: 10px;
+  border: 1px solid grey;
+  background-size: cover;
+  background: url(./assets/vegan.png);
+  background-size: cover;
+}
+.carnivoreImage {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  border-radius: 10px;
+  border: 1px solid grey;
+  background: url(./assets/carnivore.png);
+  background-size: cover;
+}
+.ketoImage {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  border-radius: 10px;
+  border: 1px solid grey;
+  background: url(./assets/keto.png);
+  background-size: cover;
+}
+.flex {
+  border: 5px solid grey;
+  border-radius: 10px;
+  margin: 20px;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+}

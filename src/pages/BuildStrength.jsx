@@ -3,13 +3,12 @@ import strength from "../assets/powerWoman.png";
 export default function BuildStrength() {
   //I could have added more details but that would eat up a lot of time that I don't have
   //to complete the project so I lead with the basics. But this is the idea of this page
-
   return (
     <>
-      <div class="hero2">
+      <div className="hero2">
         <img src={strength} height="600px" />
       </div>
-      <h1 class="h1Bar">
+      <h1 className="h1Bar">
         Training for Strength is Not like Training for Muscle Size
       </h1>
       <div className="gradient">

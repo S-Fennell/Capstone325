@@ -2,7 +2,6 @@ import cardioImage from "../assets/coupleCardio.jpeg";
 
 export default function Cardio() {
   //I added Gif image source for each subject in the img tags
-
   return (
     <>
       <div className="cardioHero">

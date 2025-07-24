@@ -6,7 +6,6 @@ export default function Subscribe() {
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
   // adding subscribers to my database
-
   const getData = async (e) => {
     e.preventDefault(); // prevents page form reloading
     //connecting to my database

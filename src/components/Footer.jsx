@@ -1,3 +1,5 @@
+
+//I left out the footer. React doesn't like certain changes to I'm just leaving it
 function Footer(){
     return(
         <div>

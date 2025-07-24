@@ -1,32 +1,28 @@
 import dietImage from "../assets/diet.png";
-// import mediteranian from "./assets/mediteranian.png"
-// import keto from "./assets/keto.png"
-// import vegan from "./assets/vegan.png"
-// import carn from "./assets/carnivore.png"
 
 export default function DietPage() {
   return (
     <div className="dietPage">
-      <div class="hero1">
+      <div className="hero1">
         {" "}
         {/*div for hero image*/}
         <img src={dietImage} alt="" />
       </div>
 
       <div className="midbar">
-        <h1 class="dietBar">What You Should know About Different Diets</h1>
+        <h1 className="dietBar">What You Should know About Different Diets</h1>
       </div>
 
       <div className="flex">
         <div className="mediteranian divs">
-          <h2 class="diet med">Mediteranian Diet</h2>
-          <p class="paragraph1">
+          <h2 className="diet med">Mediteranian Diet</h2>
+          <p className="paragraph1">
             The Mediterranean diet is based on the traditional foods of
             countries bordering the Mediterranean Sea, including France, Spain,
             Greece, and Italy. The Mediterranean is also considered the
             healtiest diet in the world according to studies.
           </p>
-          <p class="paragraph">
+          <p className="paragraph">
             {" "}
             This diets is rich in fruits, vegetables, whole grains, and
             heart-healthy fats, the Mediterranean diet is both delicious and
@@ -38,14 +34,15 @@ export default function DietPage() {
           </p>
         </div>
         <div className="medImage">
-          <img src="{}" alt="" />
+          {/* removing this empty images tag breaks my code so I need it to hold the imag place from my css file */}
+          <img src="{}" alt="" /> 
         </div>
       </div>
 
       <div className="flex">
         <div className="vegan divs">
-          <h2 class="diet vegan1">Vagen Diet</h2>
-          <p class="paragraph1">
+          <h2 className="diet vegan1">Vagen Diet</h2>
+          <p className="paragraph1">
             {" "}
             class="paragraph" Veganism is defined as a way of living that
             attempts to exclude all forms of animal exploitation and cruelty,
@@ -55,7 +52,7 @@ export default function DietPage() {
             usually range from ethics to environmental concerns, but they can
             also stem from a desire to improve health.
           </p>
-          <p class="paragraph">
+          <p className="paragraph">
             There is diferent types of vegan diets, but this topic is a general
             minus processed vegan foods which are not a healthy option. The
             vegan diet avoids all animal producted and animal derived products
@@ -81,15 +78,15 @@ export default function DietPage() {
 
       <div className="flex">
         <div className="carnivore divs">
-          <h2 class="diet carnivore1">The Carnivore Diet</h2>
-          <p class="paragraph1">
+          <h2 className="diet carnivore1">The Carnivore Diet</h2>
+          <p className="paragraph1">
             No controlled studies support claims that the carnivore diet can
             help eliminate health issues. It lacks beneficial nutrients,
             including fiber and plant compounds like antioxidants. It may be
             unsafe for some people. There is a community of people that swear by
             the carnivore diet and has has reported a number of health benifits.
           </p>
-          <p class="paragraph">
+          <p className="paragraph">
             The carnivore diet consists entirely of meat and animal products,
             excluding all other foods. It’s claimed to aid weight loss, mood
             issues, and blood sugar regulation, among other health issues.
@@ -116,14 +113,14 @@ export default function DietPage() {
 
       <div className="flex">
         <div className="keto divs">
-          <h2 class="diet keto1">Keto Diet</h2>
-          <p class="paragraph1">
+          <h2 className="diet keto1">Keto Diet</h2>
+          <p className="paragraph1">
             The ketogenic diet involves consuming a very low amount of
             carbohydrates and replacing them with fat to help your body burn fat
             for energy. Health benefits can include weight loss and lowering
             your risk for certain diseases.
           </p>
-          <p class="paragraph">
+          <p className="paragraph">
             The ketogenic diet is a very low carb, high fat diet that shares
             many similarities with the Atkins and low carb diets. It involves
             drastically reducing carbohydrate intake and replacing it with fat.

@@ -7,6 +7,7 @@ import hydrate from "../assets/hydrate.png";
 import noSmoking from "../assets/noSmoking.png";
 import nasal from "../assets/nasal.png";
 
+
 export default function LifeStyleHabits() {
   return (
     <>
